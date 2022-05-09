@@ -1,0 +1,350 @@
+/* Geral */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Open+Sans&family=Roboto&family=Swanky+and+Moo+Moo&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    
+    width: 100%;
+    background: #fff;
+}
+
+
+/* Header */
+
+
+header ul li {
+    display: inline-block;
+    position: relative;
+    left: 140px;
+    bottom: 8px;
+}
+
+header li a {
+    color: #000;
+    margin: 5px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+header li a:hover {
+    color: #deac08;
+    transition: all .3s ease;
+}
+
+.icones-header {
+    position: relative;
+    top: 5px;
+}
+
+
+
+/* Main */
+
+.principal {
+    height: 100%; 
+    width: 100%;
+    
+  
+}
+
+.local-menssagem {
+    color: #777;
+    background-color: #000;
+    text-align: justify;
+    padding: 20px 60px;
+}
+
+.menssagem {
+    font-family: 'Swanky and Moo Moo', cursive;
+    font-size: 28px;
+    color: #deac08;
+    opacity: 0.4;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.conteudo1, .conteudo2 {
+    position: relative;
+    height: 100%;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.conteudo1 {
+    background-image: url('../img/bk.jpg');
+    height: 372px;
+}
+
+.conteudo2 {
+   background-image: url('../img/burger1.jpg');
+   height: 372px;
+}
+
+
+/* Fotos */ 
+
+.fotos {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.titulo-fotos{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.titulo-fotos::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 3px;
+    margin: 6px auto;
+    background: #deac08;
+}
+
+.foto1, .foto2,.foto3,.foto4,.foto5,.foto6, .foto7, .foto8 {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    background: #000;
+
+}
+    
+/* Quem somos */
+
+.quem-somos {
+    width: 400px;
+    padding: 20px;
+    float: right;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.titulo-quem-somos{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.titulo-quem-somos::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: #deac08;
+    margin: 6px auto;
+}
+
+.subtitulo-quem-somos {
+    text-transform: uppercase;
+    color: #deac08;
+}
+
+.paragrafo-quem-somos {
+    text-align: center;
+}
+
+
+.img-sobre {
+   margin-left: 10px; 
+   margin-top: 250px;
+}
+
+/* Cardapio */
+
+.area-cardapio {
+    height: 400px;
+    background: #000;
+    clear: both;
+    margin-bottom: 20px;
+}
+
+.titulo-cardapio {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+    color: #fff;
+
+}
+
+.titulo-cardapio::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: #deac08;
+    margin: 6px auto;
+}
+
+.opcoes-cardapio  {
+    text-align: center;
+    margin: 20px;
+}
+
+.area-cardapio img:hover {
+    background: #fff;
+    border-radius: 50px;
+    transition: all .3s ease;
+}
+
+.item1, .item2, .item3, .item4 {
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+.itens-do-cardapio {
+    text-align: center;
+}
+
+.descricao-item-cardapio {
+    padding: 30px;
+}
+
+.descricao-item-cardapio:hover {
+    color: #deac08;
+    transition: all .3s ease;
+}
+
+/* Localização */
+
+.titulo-localizacao {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.titulo-localizacao::after {
+    content: '';
+    display: block;
+    width: 150px;
+    height: 3px;
+    background: #deac08;
+    margin: 6px auto;
+}
+
+
+/* Contato */
+
+.contato {
+    width: 725px;
+    height: 550px;
+    margin: 0 auto;
+   
+}
+
+
+.titulo-contato {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.titulo-contato::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: #deac08;
+    margin: 6px auto;
+}
+
+label {
+    padding: 3px;
+}
+
+fieldset {
+    margin: 2em 0;
+    padding: 1em;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+}
+
+label {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    cursor: pointer;
+}
+
+input  {
+    width: 20em;
+}
+
+.btn {
+    border-radius: 8px;
+    padding: 8px;
+    position: relative;
+    left: 210px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #000;
+    color: #deac08;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #fff;
+    transition: all .3s ease;
+}
+/* Rodape */
+.redes-sociais {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.rodape {
+    background: #000;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.redes-sociais-img {
+    margin: 10px;
+    padding: 30px;
+}
+
+
+
+
